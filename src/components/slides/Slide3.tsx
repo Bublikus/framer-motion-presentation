@@ -1,8 +1,6 @@
 import { Box, Typography, Paper } from '@mui/material';
-import { motion, useAnimation, AnimatePresence } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useState, useRef, useLayoutEffect, useEffect } from 'react';
-
-const MotionBox = motion.create(Box);
 
 const DraggableBox = () => {
   const [isDragging, setDragging] = useState(false);

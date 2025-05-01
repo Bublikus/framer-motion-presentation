@@ -74,7 +74,7 @@ export default function Slide1() {
             'Simple API',
             'Powerful Features',
             'Production Ready'
-          ].map((text, index) => (
+          ].map((text) => (
             <motion.div key={text} variants={itemVariants}>
               <MotionPaper
                 elevation={3}
